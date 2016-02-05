@@ -70,7 +70,7 @@ self.audiosearch.getTastemakers("shows", number: 5){ (responseObject:AnyObject?,
 }
 
 //customized search
-self.audiosearch.search("2016 presidential campaign", params: ["filters[network]":"NPR", "size": "5", "from": "30" ], type:        "episodes") { (responseObject:AnyObject?, error:NSError?) in
+self.audiosearch.search("2016 presidential campaign", params: ["filters[network]":"NPR", "size": "5", "from": "30" ], type:   "episodes") { (responseObject:AnyObject?, error:NSError?) in
             if (error != nil) {
                 print(error)
             } else {
