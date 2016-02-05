@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8652CCD4F6B6DCA53C302C7D'
+               BlueprintIdentifier = 'AB886845E0AA326D3B0AEA3E'
                BlueprintName = 'Pods-AudiosearchClientSwift'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_AudiosearchClientSwift.framework'>
