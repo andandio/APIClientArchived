@@ -170,6 +170,34 @@ public class Audiosearch {
             }
         }
     }
+    
+    public func getTastemakersBySource(type: String, number: Int, tasteMakerId: Int, onCompletion: ServiceResponseAny) -> Void {
+        let stringTasteMakerID = String(tasteMakerId)
+        let stringNum = String(number)
+        
+        self.oauth2!.request(.GET, "https://www.audiosear.ch/api/tastemakers/\(type)/source/\(stringTasteMakerID)/\(stringNum)", encoding:.JSON).responseJSON {response in switch response.result {
+        case .Success(let JSON):
+            let result = JSON
+            onCompletion(result, nil)
+        case .Failure(let error):
+            onCompletion(nil, error)
+            }
+        }
+    }
+    
+    public func getEpisodeSnippet(episodeId: Int, timestampInSecs: Int, onCompletion: ServiceResponseAny) -> Void {
+        let stringEpId = String(episodeId)
+        let stringTimestamp = String(timestampInSecs)
+        
+        self.oauth2!.request(.GET, "https://www.audiosear.ch/api/episodes/\(stringEpId)/snippet/\(stringTimestamp)", encoding:.JSON).responseJSON {response in switch response.result {
+        case .Success(let JSON):
+            let result = JSON
+            onCompletion(result, nil)
+        case .Failure(let error):
+            onCompletion(nil, error)
+            }
+        }
+    }
         
 }
 
