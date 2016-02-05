@@ -10,6 +10,9 @@
 		8AA5508B1C5ACE2B00324B3E /* AudiosearchClientSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA5508A1C5ACE2B00324B3E /* AudiosearchClientSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AA550921C5ACE2C00324B3E /* AudiosearchClientSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA550871C5ACE2B00324B3E /* AudiosearchClientSwift.framework */; };
 		8AA550971C5ACE2C00324B3E /* AudiosearchClientSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA550961C5ACE2C00324B3E /* AudiosearchClientSwiftTests.swift */; };
+		8AA550A21C5ACE6400324B3E /* Audiosearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA550A11C5ACE6400324B3E /* Audiosearch.swift */; };
+		8AD3AED21C5AE55B00CAF17A /* AudiosearchClientSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8AD3AED11C5AE55B00CAF17A /* AudiosearchClientSwift.podspec */; };
+		A50761F1A141B4CC02329D52 /* Pods_AudiosearchClientSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12225AEB9E0EFE7FF3CF7DC3 /* Pods_AudiosearchClientSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +26,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12225AEB9E0EFE7FF3CF7DC3 /* Pods_AudiosearchClientSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudiosearchClientSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2FBAB3E54F30E1A5405A2D /* Pods-AudiosearchClientSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudiosearchClientSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudiosearchClientSwift/Pods-AudiosearchClientSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		880E9DB8031C45F2DBB47F4D /* Pods-AudiosearchClientSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudiosearchClientSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudiosearchClientSwift/Pods-AudiosearchClientSwift.release.xcconfig"; sourceTree = "<group>"; };
 		8AA550871C5ACE2B00324B3E /* AudiosearchClientSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AudiosearchClientSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA5508A1C5ACE2B00324B3E /* AudiosearchClientSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudiosearchClientSwift.h; sourceTree = "<group>"; };
 		8AA5508C1C5ACE2B00324B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AA550911C5ACE2C00324B3E /* AudiosearchClientSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudiosearchClientSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA550961C5ACE2C00324B3E /* AudiosearchClientSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudiosearchClientSwiftTests.swift; sourceTree = "<group>"; };
 		8AA550981C5ACE2C00324B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AA550A11C5ACE6400324B3E /* Audiosearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Audiosearch.swift; path = ../Audiosearch.swift; sourceTree = "<group>"; };
+		8AD3AED11C5AE55B00CAF17A /* AudiosearchClientSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AudiosearchClientSwift.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50761F1A141B4CC02329D52 /* Pods_AudiosearchClientSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +59,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		815211854D1C7344D07FE427 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C2FBAB3E54F30E1A5405A2D /* Pods-AudiosearchClientSwift.debug.xcconfig */,
+				880E9DB8031C45F2DBB47F4D /* Pods-AudiosearchClientSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8AA5507D1C5ACE2B00324B3E = {
 			isa = PBXGroup;
 			children = (
+				8AD3AED11C5AE55B00CAF17A /* AudiosearchClientSwift.podspec */,
 				8AA550891C5ACE2B00324B3E /* AudiosearchClientSwift */,
 				8AA550951C5ACE2C00324B3E /* AudiosearchClientSwiftTests */,
 				8AA550881C5ACE2B00324B3E /* Products */,
+				815211854D1C7344D07FE427 /* Pods */,
+				D0005C4AD6437D133192DA84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				8AA5508A1C5ACE2B00324B3E /* AudiosearchClientSwift.h */,
+				8AA550A11C5ACE6400324B3E /* Audiosearch.swift */,
 				8AA5508C1C5ACE2B00324B3E /* Info.plist */,
 			);
 			path = AudiosearchClientSwift;
@@ -84,6 +106,14 @@
 				8AA550981C5ACE2C00324B3E /* Info.plist */,
 			);
 			path = AudiosearchClientSwiftTests;
+			sourceTree = "<group>";
+		};
+		D0005C4AD6437D133192DA84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12225AEB9E0EFE7FF3CF7DC3 /* Pods_AudiosearchClientSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,10 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AA5509B1C5ACE2C00324B3E /* Build configuration list for PBXNativeTarget "AudiosearchClientSwift" */;
 			buildPhases = (
+				737323D8E04120AA291C1482 /* Check Pods Manifest.lock */,
 				8AA550821C5ACE2B00324B3E /* Sources */,
 				8AA550831C5ACE2B00324B3E /* Frameworks */,
 				8AA550841C5ACE2B00324B3E /* Headers */,
 				8AA550851C5ACE2B00324B3E /* Resources */,
+				4DB5196434F4D97AD514A576 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD3AED21C5AE55B00CAF17A /* AudiosearchClientSwift.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +222,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DB5196434F4D97AD514A576 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudiosearchClientSwift/Pods-AudiosearchClientSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737323D8E04120AA291C1482 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8AA550821C5ACE2B00324B3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AA550A21C5ACE6400324B3E /* Audiosearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +374,9 @@
 		};
 		8AA5509C1C5ACE2C00324B3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2FBAB3E54F30E1A5405A2D /* Pods-AudiosearchClientSwift.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -318,12 +387,15 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ch.audiosear.AudiosearchClientSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8AA5509D1C5ACE2C00324B3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 880E9DB8031C45F2DBB47F4D /* Pods-AudiosearchClientSwift.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -376,6 +448,7 @@
 				8AA5509D1C5ACE2C00324B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AA5509E1C5ACE2C00324B3E /* Build configuration list for PBXNativeTarget "AudiosearchClientSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -384,6 +457,7 @@
 				8AA550A01C5ACE2C00324B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

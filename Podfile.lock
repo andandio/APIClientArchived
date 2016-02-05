@@ -1,0 +1,16 @@
+PODS:
+  - Alamofire (3.1.5)
+  - p2.OAuth2 (2.2):
+    - SwiftKeychain (~> 0.1.5)
+  - SwiftKeychain (0.1.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - p2.OAuth2
+
+SPEC CHECKSUMS:
+  Alamofire: 5f730ba29fd113b7ddd71c1e65d0c630acf5d7b0
+  p2.OAuth2: 47b519c9da500af90b87101e0330c6278e1152c2
+  SwiftKeychain: 1387edad8b56c659daa93d9ffc99526bac5b0088
+
+COCOAPODS: 0.39.0
