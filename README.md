@@ -13,7 +13,7 @@ First, add 'AudiosearchClientSwift' to the podfile.
 import 'AudiosearchClientSwift'
 
 //create a client instance
-let audiosearch = Audiosearch(id: YOUR_CLIENT_ID, secret: your_client_secret, redirect_urls: [YOUR_URLS]))
+let audiosearch = Audiosearch(id: YOUR_CLIENT_ID, secret: YOUR_CLIENT_SECRET, redirect_urls: [YOUR_URLS]))
 
 //fetch a show with id 60
 self.audiosearch.getShowById(60) { (responseObject:AnyObject?, error:NSError?) in
