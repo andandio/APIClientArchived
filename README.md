@@ -7,7 +7,7 @@ OAuth credentials are available from https://www.audiosear.ch/oauth/applications
 
 Example:
 
-First, add 'AudiosearchClientSwift' to the podfile.
+First, add `pod 'AudiosearchClientSwift', '~> 0.1.1'` to the podfile.
 
 ```swift
 import 'AudiosearchClientSwift'
