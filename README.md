@@ -1,3 +1,5 @@
+## This is no longer a publicly accessible API
+
 # AudiosearchClientSwift
 Swift client for Audiosear.ch API : https://www.audiosear.ch/
 
